@@ -11,7 +11,7 @@ module Oprah
     # shouldn't have to be created manually.
     #
     # @since 0.1.3
-    class ViewContextProxy < ActiveSupport::ProxyObject
+    class ViewContextProxy < BasicObject
       # @param [ActionController::Base] controller
       #   The controller to delegate to.
       def initialize(controller)
