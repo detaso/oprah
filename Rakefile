@@ -1,4 +1,4 @@
-require File.join(Dir.pwd, 'lib', 'oprah', 'version')
+require 'bundler/gem_tasks'
 
 Dir["tasks/**/*.rb"].each { |task| load task }
 
